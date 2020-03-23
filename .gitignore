@@ -1,0 +1,13 @@
+*.ipch
+*.vcxproj
+*.filters
+Project1/Project1/Project1.vcxproj.user
+*.tlog
+*.obj
+Project1/Project1/Debug/
+*.exe
+*.sln
+*.suo
+*.db
+*.ilk
+*.pdb
