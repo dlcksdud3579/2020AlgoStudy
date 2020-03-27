@@ -5,8 +5,12 @@
 #include <string>
 #include <vector>
 #include <stack>
+#include <cstdio>
+#include <ctime>
 
 using namespace std;
+
+#define INF 1000
 
 
 //1장 정렬 알고리즘
@@ -69,3 +73,7 @@ void solveChange(int n , int *coin, int change);
 
 //2절 다익스트라 최단 경로
 
+void dijkstraAlgo(int* arr, int start, int end);
+
+//3절 대기 행렬
+void QueueingMatrix(int arrival, int service, int test);

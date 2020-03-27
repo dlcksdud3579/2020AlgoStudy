@@ -1,21 +1,23 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "alg.h"
+#define fileRoot "../source/Project1/Project1/input.txt"
+// #define fileRoot "input.txt"
 
 
 
 int main()
 {
-	int n, price=0,money=0;
-	int coin[100];
+	freopen(fileRoot, "r", stdin);
 
-	freopen("input.txt", "r", stdin);
+	int arrival, service,  test;
+	
 
-	cin >> n;
-	for (int i = 0; i < n; i++)
-		cin >> coin[i];
-	cin >> price >> money;
+	cin >> arrival >> service>> test;
+	
 
-	solveChange(n, coin, money - price);
+	QueueingMatrix(arrival, service, test);
+
+	
 
 	return 0;
 }
