@@ -30,10 +30,7 @@ void QueueingMatrix(int arrival, int service, int test)
 		{
 			if (q == 0)
 			{
-				if (q <= max_q)
-				{
-
-				}
+				if (q <= max_q);
 				else
 				{
 					max_q = q;
@@ -41,7 +38,7 @@ void QueueingMatrix(int arrival, int service, int test)
 
 			}
 			
-			service = i + service;
+			s = i + service;
 
 		}
 		else
@@ -50,5 +47,5 @@ void QueueingMatrix(int arrival, int service, int test)
 		}
 		
 	}
-	cout<<total-q<<" "<<q<<" "<<max_q;
+	cout<<total<<" "<<q<<" "<<max_q;
 }

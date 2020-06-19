@@ -7,6 +7,7 @@
 #include <stack>
 #include <cstdio>
 #include <ctime>
+#include <cmath>
 
 using namespace std;
 
@@ -77,3 +78,22 @@ void dijkstraAlgo(int* arr, int start, int end);
 
 //3절 대기 행렬
 void QueueingMatrix(int arrival, int service, int test);
+
+//4장 수학관련 알고리즘
+//1절 소수판정
+void primeNumber(int start, int end);
+//2절 피보나치수열
+void fibonacciSequence(int n);
+//3절최대공약수,최소공배수
+int commonMD(int n, int m);
+//4절원주률
+void circleRate(int n);
+//5절 역행렬
+void reMatrix(int *arr);
+//코딩 테스트 3/29 
+int solution3(vector<int>& A);
+string solution4(string& S, string& C);
+
+// line test 4/5
+int solution(string answer_sheet, vector<string> sheets);
+

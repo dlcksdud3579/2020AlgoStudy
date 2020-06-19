@@ -8,16 +8,19 @@
 int main()
 {
 	freopen(fileRoot, "r", stdin);
-
-	int arrival, service,  test;
+	
+	string anser_sheet ="4132315142";
+	vector<string> sheets;
+	sheets.push_back("3241523133");
+	sheets.push_back("4121314445");
+	sheets.push_back("3243523133");
+	sheets.push_back("4433325251");
+	sheets.push_back("2412313253");
+	sheets.s
 	
 
-	cin >> arrival >> service>> test;
-	
 
-	QueueingMatrix(arrival, service, test);
-
-	
+	cout << solution(anser_sheet, sheets);
 
 	return 0;
 }
